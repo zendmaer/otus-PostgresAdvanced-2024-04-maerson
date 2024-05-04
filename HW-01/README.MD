@@ -4,4 +4,9 @@
 ```sql
 show transaction isolation level;
 ```
-    read committed
+```console
+ transaction_isolation 
+-----------------------
+ read committed
+(1 row)
+```
