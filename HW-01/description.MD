@@ -1,10 +1,7 @@
 <style>
     root { 
     background-color: #2b2b2b; 
-    }
-    code {
-        background-color: #3c3d3e;
-    }
+    } 
     code span.hello {
         color: #007f00;
     }
@@ -14,7 +11,7 @@
 </style>
 ## Задание № 1
 ### (Работа с уровнями изоляции транзакции в PostgreSQL)
-<code>
+<code style="background-color: #3c3d3e;">
   <span class="hello">postgres=#</span> <span  class="body">
       show transaction isolation level;
   </span>
